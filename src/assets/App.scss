@@ -1,0 +1,118 @@
+#root {
+  width: 100vw;
+  margin: 0 auto;
+  padding: 2rem;
+  height: 92vh;
+  overflow-x: hidden;
+  padding: 4vh 10vw;
+  background-color: #747474;
+  background-image: url('/fone2.png');
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  &__logo {
+    will-change: filter;
+    transition: filter 300ms;
+    width: 70px;
+    height: 70px;
+  }
+  &__logo:hover {
+    filter: drop-shadow(0 0 2em #000000aa);
+  }
+
+  &__title {
+    transition: all 200ms ease-in-out;
+  }
+  &__title:hover {
+    color: gray;
+    cursor: pointer;
+  }
+}
+
+.main {
+  width: 100%;
+  padding: 5vh 0;
+
+  &__top {
+    display: flex;
+    justify-content: center;
+  }
+  &__user {
+    margin: 3vh 10vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    h1 {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    img {
+      border-radius: 50%;
+    }
+  }
+  &__field {
+    width: 600px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    transition: all 200ms ease-in;
+    border: 2px solid #8a8a8a;
+    &:focus-within {
+      border: 2px solid #000000;
+    }
+  }
+
+  &__button {
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    transition: background-color 200ms;
+    cursor: pointer;
+    background-color: #3cff00;
+    &:hover {
+      background-color: #2dbe01;
+    }
+  }
+
+  .repo {
+    // margin: 0 15vw;
+    padding: 0 10vw;
+    .item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-radius: 10px;
+      padding: 1vh 1vw;
+      background-color: #dddddd;
+      margin: 1vh 0;
+      will-change: filter;
+      transition: all 200ms;
+      &:hover {
+        background-color: #c7c7c7;
+        filter: drop-shadow(0 0 0.5em #444444b0);
+      }
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 600;
+      }
+      &__logo {
+        will-change: filter;
+        transition: filter 300ms;
+        width: 30px;
+        height: 30px;
+      }
+      &__logo:hover {
+        filter: drop-shadow(0 0 2em #fd0000);
+      }
+    }
+  }
+}
