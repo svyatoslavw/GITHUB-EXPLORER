@@ -10,7 +10,7 @@ yarn dev
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-## Nike store clone
+## About the program
 
 This repository is a program to find users and github repositories.
 
@@ -24,7 +24,7 @@ This repository is a program to find users and github repositories.
 ## How it looks like
 
 web
-![web](https://github.com/Svyatoslavq/GITHUB-EXPLORER/blob/main/src/design/1.png)
+![web]((https://github.com/svyatoslavw/GITHUB-EXPLORER/blob/main/src/design/1.png)
 
 mobile
-![mobile](https://github.com/Svyatoslavq/GITHUB-EXPLORER/blob/main/src/design/2.png)
+![mobile](https://github.com/svyatoslavw/GITHUB-EXPLORER/blob/main/src/design/2.png)
