@@ -24,7 +24,4 @@ This repository is a program to find users and github repositories.
 ## How it looks like
 
 web
-![web]((https://github.com/svyatoslavw/GITHUB-EXPLORER/blob/main/src/design/1.png)
-
-mobile
-![mobile](https://github.com/svyatoslavw/GITHUB-EXPLORER/blob/main/src/design/2.png)
+![web](https://github.com/svyatoslavw/GITHUB-EXPLORER/blob/main/src/design/2.png)
